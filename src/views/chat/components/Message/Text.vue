@@ -20,6 +20,7 @@ const props = defineProps<Props>()
 const { isMobile } = useBasicLayout()
 
 const textRef = ref<HTMLElement>()
+
 const mdi = new MarkdownIt({
   html: true,
   linkify: true,
